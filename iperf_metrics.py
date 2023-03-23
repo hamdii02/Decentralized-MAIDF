@@ -2,8 +2,6 @@
 # Runs in reverse mode to measure both ingress and egress bandwidth
 # Sends avg bandwidth metric to ELK stack 
 import time
-from datadog import initialize, statsd
-import time
 import iperf3
 import os
 from elasticsearch import Elasticsearch
